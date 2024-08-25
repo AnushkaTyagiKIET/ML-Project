@@ -55,8 +55,8 @@ This project aims to predict heart disease using various machine learning algori
      
 8. Miscellaneous:
 
-warnings.filterwarnings('ignore'): Suppresses warning messages.
-pd.pandas.set_option('display.max_columns',None): Displays all columns in a DataFrame without truncation.
+   - warnings.filterwarnings('ignore'): Suppresses warning messages.
+   - pd.pandas.set_option('display.max_columns',None): Displays all columns in a DataFrame without truncation.
 
 **Datasets**:All the 3 datasets which were collected were taken from Kaggle website and were licensed data belonging originally from UCI Repository, thus it shows the authentication of the collected data.
 
