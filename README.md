@@ -13,6 +13,51 @@ This project aims to predict heart disease using various machine learning algori
    prediction.
 5. _Overfitting Mitigation_: We've addressed overfitting issues by employing appropriate techniques to ensure model generalization.
 
+**Library used in Project**:
+1. Data Manipulation and Analysis:
+
+   - Pandas (pd): Provides data structures and analysis tools for working with structured data.
+   - NumPy (np): Offers numerical operations and arrays for efficient computations.
+
+2. Visualization:
+
+   - Matplotlib.pyplot (plt): Creates static, animated, and interactive visualizations.
+   - Seaborn (sns): Provides a high-level interface for drawing attractive statistical graphics.
+
+3. Machine Learning:
+
+   - Scikit-learn (sklearn): Contains a collection of tools for machine learning tasks, including preprocessing, classification, regression, and clustering.
+   - imblearn.over_sampling (SMOTE): Implements synthetic minority oversampling techniques (SMOTE) to address class imbalance in datasets.
+     
+4. Preprocessing:
+
+   - preprocessing (from sklearn): Provides tools for data preprocessing, such as normalization, standardization, and encoding categorical features.
+   - MinMaxScaler (from sklearn.preprocessing): Scales numerical features to a specific range (0-1).
+   - StandardScaler (from sklearn.preprocessing): Standardizes features by removing the mean and scaling to unit variance.
+
+5. Feature Selection:
+
+   - SequentialFeatureSelector (from mlxtend.feature_selection): Implements sequential feature selection algorithms to identify the most relevant features.
+
+6. Model Selection:
+
+   - train_test_split (from sklearn.model_selection): Splits data into training and testing sets for model evaluation.
+   - GridSearchCV (from sklearn.model_selection): Performs hyperparameter tuning by exhaustively searching over a specified grid of parameters.
+     
+7. Optimization:
+
+   - ExtraTreesClassifier (from sklearn.ensemble): An ensemble method that can be used for feature importance estimation.
+   - scipy.stats.uniform (sp_randFloat): Provides a uniform probability distribution for random number generation.
+   - scipy.stats.randint (sp_randInt): Provides a discrete uniform probability distribution for random integer generation.
+   - niapy.problems (Problem): Defines optimization problems to be solved.
+   - niapy.task (Task): Specifies the optimization task, including the problem, algorithm, and parameters.
+   - niapy.algorithms.basic.ParticleSwarmOptimization (ParticleSwarmOptimization): Implements the particle swarm optimization (PSO) algorithm for optimization.
+     
+8. Miscellaneous:
+
+warnings.filterwarnings('ignore'): Suppresses warning messages.
+pd.pandas.set_option('display.max_columns',None): Displays all columns in a DataFrame without truncation.
+
 **Datasets**:All the 3 datasets which were collected were taken from Kaggle website and were licensed data belonging originally from UCI Repository, thus it shows the authentication of the collected data.
 
 <img src="https://github.com/user-attachments/assets/d5354295-1c63-46c0-a45f-b255d97b1ede" width="239" alt="github image1" style="display: block; margin-left: auto; margin-right: auto;">
