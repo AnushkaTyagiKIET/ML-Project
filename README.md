@@ -58,7 +58,8 @@ This project aims to predict heart disease using various machine learning algori
   - Random Forest is a promising choice for heart disease prediction due to its consistent and superior performance.
   - Ensemble methods offer a robust approach for capturing complex patterns in cardiovascular data.
   - Feature selection and hyperparameter tuning are crucial for optimizing model performance.
-7. _Result_:
+
+**Result**:
    - Accuracy Comparison Table:
       <img width="527" alt="image" src="https://github.com/user-attachments/assets/9537cbde-7cbc-4cd7-9450-074acf906dbd">
    - ROC-Curve and cross validation score:
